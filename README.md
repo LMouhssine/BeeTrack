@@ -1,40 +1,40 @@
-﻿# 🐝 Projet Ruche Connectée
+# BeeTrack
 
-Prototype d'une ruche connectée pour la surveillance à distance dans le cadre de l’apiculture urbaine.
+BeeTrack est une application de suivi et de gestion des ruches d'abeilles.
 
-## 🎯 Objectif
+## Description
 
-Fournir aux apiculteurs un système numérique pour :
-- Suivre à distance l’état de leurs ruches
-- Être alerté en cas de conditions anormales
-- Visualiser les données depuis une **application mobile Flutter** ou un **site Web Spring Boot**
+BeeTrack est une application moderne conçue pour aider les apiculteurs à gérer efficacement leurs ruches. Elle permet de suivre la santé des colonies, la production de miel, et d'autres paramètres importants pour une apiculture durable.
 
----
+## Fonctionnalités
 
-## ⚙️ Technologies utilisées
+- Suivi des ruches
+- Gestion des colonies
+- Suivi de la production de miel
+- Alertes et notifications
+- Rapports et statistiques
 
-| Composant       | Stack                                                                 |
-|-----------------|-----------------------------------------------------------------------|
-| Mobile          | Dart + Flutter                                                        |
-| Backend         | Java Spring Boot                                                      |
-| Base de données | Firebase (Auth, Firestore, Realtime DB si besoin)                    |
-| IoT             | ESP32 + capteur DHT11 (température + humidité) + interrupteur        |
-| Communication   | Wifi (les ruches sont connectées à un point d’accès)                 |
-| Alertes         | Envoi d’e-mails en cas d'ouverture suspecte de ruche                 |
+## Installation
 
----
+```bash
+# Cloner le repository
+git clone https://github.com/LMouhssine/BeeTrack.git
 
-## 📱 Fonctionnalités attendues
+# Accéder au dossier du projet
+cd BeeTrack
 
-- Authentification des apiculteurs
-- Gestion des ruchers (ajout, modification, suppression)
-- Gestion des ruches dans chaque rucher
-- Visualisation :
-  - Température
-  - Humidité
-  - État du couvercle (ouvert / fermé)
-  - Historique des données (courbe sur 7 jours)
-- Réception de mail si le couvercle est ouvert (sauf si désactivé manuellement)
-- Version Web avec les mêmes fonctionnalités
+# Installer les dépendances
+npm install
+```
 
----
+## Utilisation
+
+[Instructions d'utilisation à venir]
+
+## Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. 
