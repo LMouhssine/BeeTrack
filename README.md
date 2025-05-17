@@ -14,19 +14,6 @@ BeeTrack est une application moderne conçue pour aider les apiculteurs à gére
 - Alertes et notifications
 - Rapports et statistiques
 
-## Installation
-
-```bash
-# Cloner le repository
-git clone https://github.com/LMouhssine/BeeTrack.git
-
-# Accéder au dossier du projet
-cd BeeTrack
-
-# Installer les dépendances
-npm install
-```
-
 ## Utilisation
 
 [Instructions d'utilisation à venir]
